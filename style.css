@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+   background-image: url(waves.jpg);
+   background-size: cover;
+
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    padding-left: 100px;
+    width: 100%;
+    justify-content: center;
+   
+    
+}
+
+.flexbox{
+    display: flex;
+    margin: 20px;
+    padding: 20px;
+    background-color: rgb(139, 141, 142);
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 400px;
+    width: 250px;
+    border-radius: 30px;
+}
+
+.flexbox img{
+    height: 190px;
+    width: 200px;
+    border-radius: 30px;
+    border: transparent;
+}
+
+.flexbox h2{
+    text-align: center;
+    font-family: times new roman;
+    font-weight: bold;
+}
+
+.flexbox a{
+    text-decoration: none;
+    color: blue;
+
+    
+}
+
+.flexbox a:hover{
+    color: white;
+    text-transform: uppercase;
+}
+
+.flexbox p{
+    text-align: center;
+
+}
